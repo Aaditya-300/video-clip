@@ -25,8 +25,8 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.2.16",
-    "@angular/cli": "~16.2.16",
-    "@angular/compiler-cli": "^16.2.12",
+    "@angular/cli": "17.3.16",
+    "@angular/compiler-cli": "17.3.16",
     "@types/jasmine": "~4.0.0",
     "jasmine-core": "~4.1.0",
     "karma": "~6.3.0",
