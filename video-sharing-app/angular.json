@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "video-sharing-app:build:production"
+              "buildTarget": "video-sharing-app:build:production"
             },
             "development": {
-              "browserTarget": "video-sharing-app:build:development"
+              "buildTarget": "video-sharing-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "video-sharing-app:build"
+            "buildTarget": "video-sharing-app:build"
           }
         },
         "test": {
